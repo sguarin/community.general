@@ -58,8 +58,8 @@ options:
   variables:
     version_added: 4.4.0
     description:
-      - A list of dictionries that represents CI/CD variables.
-      - This modules works internal with this sructure, even if the older I(vars) parameter is used.
+      - A list of dictionaries that represents CI/CD variables.
+      - This modules works internal with this structure, even if the older I(vars) parameter is used.
     default: []
     type: list
     elements: dict
@@ -139,7 +139,7 @@ EXAMPLES = '''
 
 RETURN = '''
 project_variable:
-  description: Four lists of the variablenames which were added, updated, removed or exist.
+  description: Four lists of the variable names which were added, updated, removed or exist.
   returned: always
   type: dict
   contains:
